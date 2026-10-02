@@ -1,0 +1,18 @@
+<p>conference-ajouter works!</p>
+<div>
+    <div class="form-group">
+        <label for="nom" >Nom Conference</label>
+        <input name="nom" type="text" placeholder="Nom conference" [(ngModel)]="nomConference">
+    </div>
+    <div class="form-group">
+        <label for="nom">Date Conference</label>
+        <input name="date" type="text" placeholder="Nom conference">
+    </div>
+    <div class="form-group">
+        <label for="nom">Emplacement Conference</label>
+        <input name="nom" type="text" placeholder="Emplacement">
+    </div>
+    <button (click)="AjouterConference()">Ajouter Conference</button>
+    
+    <h2>Nom de la conference: {{ nomConference() }}</h2>
+</div>

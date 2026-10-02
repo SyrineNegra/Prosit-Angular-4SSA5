@@ -1,0 +1,8 @@
+.footer
+{
+    padding:1em;
+    background-color: aliceblue;
+    border-top:solid;
+    border-width:1px;
+    min-height:50px;
+}

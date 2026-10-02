@@ -1,0 +1,48 @@
+
+.navbar
+{
+    background-color:aliceblue;
+    padding: 1em;
+    display:flex;
+    align-items:center;
+}
+.logo
+{
+    display:flex;
+    margin:0;
+}
+.navbar span
+{
+    font-weight:700;
+    align-items:center;
+    float:right;
+    display:flex;
+    margin: 0;
+}
+.navbar-links
+{
+    display:flex;
+    gap: 1em;
+    margin: 0;
+    float:left;
+}
+.navbar-links a
+{
+    text-decoration:none;
+    color:rgb(22, 26, 45);
+}
+.navbar-links a:hover
+{
+    color:cyan;
+}
+.navbar li
+{
+    list-style:none;
+}
+.navbar-right
+{
+    display:flex;
+    gap: 1em;
+    align-items:center;
+   margin-left:auto;
+}
