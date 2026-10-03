@@ -1,11 +1,11 @@
 import { Component, signal } from '@angular/core';
-//import { RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { Header } from './header/header';
 import { Footer } from './footer/footer';
-import { ConferenceAjouter } from './conference-ajouter/conference-ajouter';
+
 @Component({
   selector: 'app-root',
-  imports: [Header, Footer, ConferenceAjouter],
+  imports: [RouterOutlet, Header, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

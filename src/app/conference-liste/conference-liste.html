@@ -1,0 +1,20 @@
+
+<h1>Liste des Conferences</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Date</th>
+      <th>Emplacement</th>
+      <th>Description</th>
+      <th>N Places Restants</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (conf of conferences(); track $index) {
+      <tr app-conference-details [conference]="conf"></tr>
+    }
+  </tbody>
+</table>

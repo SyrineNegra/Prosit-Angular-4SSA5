@@ -1,0 +1,20 @@
+
+    <th scope="row">{{ conference().name }}</th>
+    <td>{{ conference().date }}</td>
+    <td>{{ conference().location }}</td>
+    <td>{{ conference().description }}</td>
+    <td>{{ nbPlacesRestantes() }}</td>
+    <td>
+    @if (!dateConf())
+    {
+    <a href="#" class="btn btn-danger">Rejoindre</a>
+    }
+    @else if (dateConf() && nbPlacesRestantes()<10)
+    {
+        <a href="#" class="btn btn-warning">Rejoindre</a>
+    }
+    @else 
+    {
+        <a href="#" class="btn btn-success">Rejoindre</a>
+    }
+    </td>

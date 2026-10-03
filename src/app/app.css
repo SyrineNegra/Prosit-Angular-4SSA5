@@ -4,7 +4,7 @@ body
     margin:0;
     display:grid;
     grid-template-rows: auto 1fr auto;
-    min-height:100vh;
+    min-height:40vh;
 }
   :host {
     --bright-blue: oklch(51.01% 0.274 263.83);
